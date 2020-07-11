@@ -14,9 +14,20 @@ else:
     if a=='+':
         print("result=",b1+b2)
     elif a =='-':
-        print("result=",b1-b2)
+        if b1>b2:
+            print("result=",b1-b2)
+        else:
+            print("resullt=",b2-b1)
     elif a =='*':
         print("result=",b1*b2)
     elif a =='/':
-        print("result=",b1/b2)
+        if b1>b2:
+            print("result=",b1/b2)
+        else:
+            print("result=",b2/b1)
+    elif a=='%':
+        if b1>b2:
+            print("result=",b1%b2)
+        else:
+            print("result=",b2%b1)
        
