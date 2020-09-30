@@ -1,9 +1,9 @@
-#faulty calci
+#faulty calculater
 #if you want wrong output for certain specific numbers and operators
 
-a= input("which operator do u want to use")
-b1=int(input("first number on which opearator has to be applied"))
-b2=int(input("second number on which operator has to be applied"))
+a= input("Which operator do u want to use")
+b1=int(input("First number on which opearator has to be applied"))
+b2=int(input("Second number on which operator has to be applied"))
 if(a=='*' and b1==45 and b2==3):
     print("result=555")
 elif(a=='+' and b1==56 and b2==9):
